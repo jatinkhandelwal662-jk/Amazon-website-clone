@@ -198,6 +198,7 @@ span{
     margin-bottom: 1rem;
 }
 .rectangle-panel{
+    border: 2px solid white;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 25px;
@@ -305,6 +306,7 @@ ul a{
 .hover-box:hover .hover-img {
     display: block;
 }
+
 
 
 
