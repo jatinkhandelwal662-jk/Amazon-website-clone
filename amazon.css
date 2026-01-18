@@ -7,6 +7,7 @@
 body{
     background-color: #e2e7e6;
 }
+
 .navbar{
     height:60px;
     background-color: #0f1111;
@@ -60,7 +61,7 @@ body{
 }
 .search-select{
     background-color: #f3f3f3;
-    width: 45px;
+    width: auto;
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -134,7 +135,13 @@ span{
     height: 350px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;  
+    align-items: flex-end;
+    cursor:grab; 
+}
+.hero-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 /* LINK DESIGN (BY ME) */
 .hero-msg a{
@@ -197,37 +204,6 @@ span{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.rectangle-panel{
-    border: 2px solid white;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 25px;
-    background-color: white;
-    height: 300px;
-    width: auto;
-}
-.rec-content{
-    margin: 20px;
-    font-weight: 700;
-    font-size: 18px;
-    display: flex;
-}
-.rec{
-    margin-left:20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.rec img{
-    width:auto;
-    height: auto;
-}
-.rec-content p{
-    font-size: 15px;
-    color: #2162a1;
-    margin: 10px;
-    margin-left: 20px;
-}
 
 footer{
     margin-top: 15px;
@@ -258,7 +234,6 @@ ul a{
     margin-top: 10px;
     color: #dddddd;
 }
-
 
 .foot-panel3{
     background-color: #222f3d;
@@ -291,6 +266,23 @@ ul a{
 .copyright{
     text-align: center;
 }
+
+/* TRYING NEW THINFG ON WEBSITE AFTER THE PROJECT SUBMIT BY ME */
+.box-img-gr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+    padding: 10px;
+}
+.box-img-gr div {
+    text-align: center;
+}
+.box-img-gr img {
+    width: 100%;
+    height: 135px;
+    border-radius: 5px;
+}
+
 .hover-box {
     position: relative;
     display: inline-block;
@@ -303,11 +295,88 @@ ul a{
     border-radius: 5px;
     height: 150px;
 }
+
+/* Show image on hover */
 .hover-box:hover .hover-img {
     display: block;
 }
 
+.rectangle-panel{
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 25px;
+    background-color: white;
+    height: 300px;
+    width: auto;
+}
+.rec-content{
+    margin: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+}
+.rec{
+    margin-left:20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rec img{
+    width:auto;
+    height: auto;
+}
+.rec-content p{
+    font-size: 15px;
+    color: #2162a1;
+    margin: 10px;
+    margin-left: 20px;
+}
+/* MY AD-SHOWING WORK NOT COMPLETED IN PROGRESS */
+/* .adshow{
+    border: 2px solid #ccc;
+    display: block;
+    cursor:pointer;
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    height: 320px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.addimg{
+    height: 250px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    background-color: #f2f2f2;
 
+}
+.addimg img{
+    padding-top: 20px;
+    padding-left: 100px;
+    height: auto;
+    width: 200px;
+}
 
-
+.ad-cont{
+    border:2px solid black;
+    margin-top: 60px;
+    width: 550px;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.head{
+    font-weight: 700;
+    font-size: 20px;
+}
+.price1{
+    font-weight: 600;
+    font-size: 30px;
+} */
 
